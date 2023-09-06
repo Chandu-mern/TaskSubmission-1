@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taskcss 7</title>
+    <style>
+      body {
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .home {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: maroon;
+        padding: 70px;
+      }
+      .labelDiv {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        gap: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: white">Form</h1>
+    <div class="home">
+      <div class="labelDiv">
+        <label>name:</label>
+        <label>Email:</label>
+        <label>Password:</label>
+        <label>Phone number:</label>
+        <label>Gender:</label>
+        <label>language: </label>
+        <label>zip Code</label>
+        <label>About</label>
+      </div>
+      <div>
+        <input type="text" />
+        <br />
+        <input type="text" />
+        <br />
+        <input type="password" />
+        <br />
+        <input type="text" />
+        <br />
+        <input type="radio" id="male" name="same" />
+        <label id="male">male</label>
+        <input type="radio" id="male" name="same" />
+        <label id="male">Female</label>
+        <input type="radio" id="male" name="same" />
+        <label id="male">others</label>
+        <br />
+        <select>
+          <option>Telugu</option>
+          <option>Tamil</option>
+        </select>
+        <br />
+        <input type="text" />
+        <br />
+        <textarea></textarea>
+      </div>
+      <br />
+    </div>
+    <button style="align-self: center">Register</button>
+  </body>
+</html>

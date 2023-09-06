@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2 Css</title>
+    <style>
+      body {
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+      }
+      .verticalnavBar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: aqua;
+        width: fit-content;
+        padding: 10px;
+        border: 1px solid black;
+      }
+      .horizontalnavBar {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        background-color: lightgray;
+        width: fit-content;
+        padding: 10px;
+        border: 1px solid black;
+        height: fit-content;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>verticalnavBar</p>
+      <div class="verticalnavBar">
+        <a
+          href="https://www.w3schools.com/html/default.asp"
+          style="background-color: orange"
+          >Home</a
+        >
+        <a href="https://www.w3schools.com/html/default.asp">java</a>
+        <a href="https://www.w3schools.com/html/default.asp">CSS</a>
+        <a href="https://www.w3schools.com/html/default.asp">HTML</a>
+        <a href="https://www.w3schools.com/html/default.asp">Bootstrap</a>
+      </div>
+    </div>
+    <div>
+      <p>horizontalnavBar</p>
+      <div class="horizontalnavBar">
+        <a
+          href="https://www.w3schools.com/html/default.asp"
+          style="background-color: gray"
+          >Home</a
+        >
+        <a href="https://www.w3schools.com/html/default.asp">java</a>
+        <a href="https://www.w3schools.com/html/default.asp">CSS</a>
+        <a href="https://www.w3schools.com/html/default.asp">HTML</a>
+        <a href="https://www.w3schools.com/html/default.asp">Bootstrap</a>
+      </div>
+    </div>
+  </body>
+</html>

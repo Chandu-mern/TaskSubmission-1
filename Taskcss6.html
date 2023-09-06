@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taskcss 6</title>
+    <style>
+      .profileImgDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+      }
+      .inputDiv {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 10px 0;
+      }
+      input {
+        padding: 5px;
+        border: 0.5px solid black;
+        margin: 5px 0;
+      }
+      img {
+        border-radius: 150px;
+      }
+      label {
+        font-weight: bold;
+      }
+      #btn1 {
+        margin: 20px 0;
+        background-color: green;
+        border: 0px solid transparent;
+        padding: 10px;
+        color: white;
+      }
+      .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        align-items: center;
+        background-color: lightgray;
+        padding: 10px;
+      }
+      .btn {
+        background-color: red;
+        border: 0px solid transparent;
+        padding: 10px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="profileImgDiv">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWxWZ-8coSnu34tKkkrX4U-ogd2G7EAc0USO8oV5eDENM7vG7QsRgEVBbmBkkwnWdCUu4&usqp=CAU"
+          alt="profileImg"
+        />
+      </div>
+      <div class="inputDiv">
+        <label>USERNAME</label>
+        <input type="text" placeholder="ENTER YOUR USERNAME" />
+      </div>
+      <div class="inputDiv">
+        <label>PASSWORD</label>
+        <input type="password" placeholder="ENTER YOUR Password" />
+        <button id="btn1">Login</button>
+      </div>
+      <div>
+        <input type="checkbox" id="remember" />
+        <label for="remember">Remeber me</label>
+      </div>
+      <div class="footer">
+        <button class="btn">Cancel</button>
+        <a href="#">forgot password?</a>
+      </div>
+    </div>
+  </body>
+</html>
